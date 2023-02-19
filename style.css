@@ -1,0 +1,135 @@
+*{
+    background: #fa7202;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 2%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.text-area{
+    font-family:cursive;
+    border: none;
+    color: rgb(71, 16, 224);
+    margin-top: 90px;
+    margin-left: 240px;
+    text-transform: lowercase;
+}
+
+::placeholder{ color:  rgb(71, 16, 224)}
+.text-area :focus {
+    outline:none;
+}
+
+.rectangulo{
+    display: block;
+    position: absolute;
+    background: #ffffff;
+    border: none;
+    border-radius: 35px;
+    width: 400px;
+   height: 944px;
+   margin-left: 200px;
+   margin-top: 0px;
+
+}
+
+#muñeco{
+    background: #ffffff;
+    position:absolute;
+    width: 20%;
+    height: 55%;
+    margin-left: 230px;
+    margin-top: 85px;
+}
+
+#muñeco:focus {
+    outline: none;
+}
+
+.texto-uno{
+    position: absolute;
+    background: #ff0000;
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 50px;
+    font-family:cursive;
+    font-size: 25px;
+}
+.texto-dos{
+    position: absolute;
+    background: #ffffff;
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 50px;
+    font-family:cursive;
+    font-size: 25px;
+}
+
+
+.botones {
+    display: flex;
+    margin-top: 18px;  
+     
+}
+
+.btn-encriptar {
+    
+    font-family:cursive;
+    background: rgb(71, 16, 224);
+    border: 1px solid rgb(71, 16, 224);
+    border-radius: 24px;
+    color: white;
+    cursor:help;
+    height: 67px;
+    margin-left: 240px;
+    width: 328px;
+}
+
+.btn-desencriptar {
+    font-family:cursive;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    color:rgb(71, 16, 224);
+    cursor: help;
+    height: 67px;
+    width: 328px;
+    margin-left: 24px;
+}
+
+.copiar {
+    font-family: cursive;
+    border: 1px solid rgb(71, 16, 224);
+    background-color: #ffffff;
+    border-radius: 24px;
+    color: rgb(71, 16, 224);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 230px;
+    margin-top: 650px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacion {
+    font-family:cursive;
+    color: rgb(71, 16, 224);
+    font-size: 18px;
+    margin-left: 240px;
+}
+
+.pieDePagina {
+    margin-top: 850px;
+    margin-left: -500px;
+    font-size: 25px;
+}

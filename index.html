@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Encriptador de Texto</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,700&family=Montserrat:wght@300&family=Neucha&display=swap" rel="stylesheet">
+    
+    </head>
+
+   <body>
+    <header>
+             
+    </header>
+   
+    <main>
+        <section class="logo">
+            <img  src="imagenes/Vector.svg">
+        </section>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion">🚩Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div>
+                <div class="botones">
+                    <button type="button" class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button type="button" class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <textarea class="rectangulo" cols="20" rows="10" ></textarea>
+                <img id="muñeco" src="imagenes/pinguino.png">
+                
+            </div>
+            
+            <div>
+                <button type="button" class="copiar">Copiar</button>
+            </div>
+            
+            <div class="mensajeEncriptado"></div>
+        </section>
+
+        <section class="pieDePagina">
+            <h1>💻Ivana Germir</h1>
+        </section>
+    </main>
+  
+<script src="script.js"></script> 
+   </body>
+   
+
+</html>
