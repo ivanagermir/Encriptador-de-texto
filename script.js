@@ -1,13 +1,15 @@
 const textArea = document.querySelector(".text-area");
 const mensaje = document.querySelector(".rectangulo");
-
+const Copiar = document.querySelector(".btn-copiar")
 
 function btnEncriptar(){
     const textoEncriptado = encriptar(textArea.value)
     mensaje.value = textoEncriptado
     textArea.value ="";
     mensaje.style.backgroundImage = "none";
-    
+    var div = document.getElementById("munheco");
+    div.style.display = "none";
+
 }
 
 
@@ -46,5 +48,8 @@ function desencriptar(stringDesencriptado){
     return stringDesencriptado
 }
 
-
+function btnCopiar(){
+    copiar = mensaje.select();
+    document.execCommand("copy");
+}
 

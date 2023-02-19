@@ -16,7 +16,7 @@ main{
 
 }
 
-.text-area{
+.text-area{ 
     font-family:cursive;
     border: none;
     color: rgb(71, 16, 224);
@@ -25,10 +25,10 @@ main{
     text-transform: lowercase;
 }
 
-::placeholder{ color:  rgb(71, 16, 224)}
-.text-area :focus {
-    outline:none;
-}
+  .text-area::-webkit-input-placeholder {
+    text-align: center;
+    line-height: 100px;/* Centrado vertical */
+  }
 
 .rectangulo{
     display: block;
@@ -36,43 +36,29 @@ main{
     background: #ffffff;
     border: none;
     border-radius: 35px;
-    width: 400px;
-   height: 944px;
+    width: 200px;
+   height: 750px;
    margin-left: 200px;
    margin-top: 0px;
-
+    font-family: cursive;
+    padding-inline: 100px;
+    padding-top: 200px;
 }
 
-#muñeco{
+
+#munheco{
     background: #ffffff;
     position:absolute;
     width: 20%;
     height: 55%;
     margin-left: 230px;
     margin-top: 85px;
+    
 }
 
-#muñeco:focus {
+#munheco:focus {
     outline: none;
-}
-
-.texto-uno{
-    position: absolute;
-    background: #ff0000;
-    text-align: center;
-    margin-top: -400px;
-    margin-left: 50px;
-    font-family:cursive;
-    font-size: 25px;
-}
-.texto-dos{
-    position: absolute;
-    background: #ffffff;
-    text-align: center;
-    margin-top: -400px;
-    margin-left: 50px;
-    font-family:cursive;
-    font-size: 25px;
+    
 }
 
 
@@ -107,7 +93,7 @@ main{
     margin-left: 24px;
 }
 
-.copiar {
+.btn-copiar {
     font-family: cursive;
     border: 1px solid rgb(71, 16, 224);
     background-color: #ffffff;
